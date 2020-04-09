@@ -2,9 +2,9 @@
 API Python Falcon avec fonctionnalités de  base 
 
 # installation 
-pip install falcon 
+pip3 install falcon 
 
-pip install gunicorn
+pip3 install gunicorn
 
 # Run api 
 gunicorn backend-api:app
@@ -12,8 +12,10 @@ gunicorn backend-api:app
 Run on localhost:8000 by default
 
 
-# TODO list
-mongoDb 
+# TODO list install
+PostgreSQL connector and ORM : SQLAlchemy
+
+graphql : Graphene 
 
 route documentation (swagger)
 
