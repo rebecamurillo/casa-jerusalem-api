@@ -14,6 +14,7 @@ Run on localhost:8000 by default
 
 # TODO list install
 PostgreSQL connector and ORM : SQLAlchemy
+: sudo pip install SQLAlchemy psycopg2
 
 graphql : Graphene 
 

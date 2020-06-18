@@ -5,4 +5,3 @@ from src.routes.test import MyTest
 app = falcon.API()
 
 app.add_route('/test', MyTest())
-
