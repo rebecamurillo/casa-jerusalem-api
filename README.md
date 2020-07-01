@@ -7,7 +7,7 @@ pip3 install falcon
 pip3 install gunicorn
 
 # Run api 
-gunicorn backend-api:app
+gunicorn backendApi:app
 
 Run on localhost:8000 by default
 
@@ -21,8 +21,10 @@ graphql : Graphene
 route documentation (swagger)
 
 security auth > https://falcon.readthedocs.io/en/stable/user/quickstart.html
+https://github.com/loanzen/falcon-auth
+pip install -U falcon-auth
 
-role management
+role managemenùm!t
 
 user basic stories: login, create account, get my account, update account, delete account
 
